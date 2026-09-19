@@ -14,7 +14,7 @@ SRC_URI[md5sum] = "4bccc33cf6f1435e378611a013f01dbe"
 SRC_URI[sha256sum] = "1221a54142f1e7c17f81bdaeca9ba162627133f13cba717bc5dd403825b5f603"
 
 # Build options
-S = "${WORKDIR}/git/tdk-thermistor-app/files"
+S = "${UNPACKDIR}/git/tdk-thermistor-app/files"
 DEPENDS = " \
     libcutils \
     libutils \
